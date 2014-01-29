@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.jeremyfeinstein.slidingmenu</groupId>
+  <artifactId>slidingmenu-maps-support</artifactId>
+  <versioning>
+    <versions>
+      <version>1.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20140129141344</lastUpdated>
+  </versioning>
+</metadata>
