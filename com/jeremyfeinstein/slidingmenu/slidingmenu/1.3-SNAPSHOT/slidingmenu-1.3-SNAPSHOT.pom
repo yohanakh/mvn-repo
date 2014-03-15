@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
     <groupId>com.jeremyfeinstein.slidingmenu</groupId>
-	<artifactId>slidingmenu</artifactId>
-	<name>SlidingMenu</name>
-	<packaging>apklib</packaging>
+    <artifactId>slidingmenu</artifactId>
+    <name>SlidingMenu</name>
+    <packaging>apklib</packaging>
     <version>1.3-SNAPSHOT</version>
     <properties>
         <github.global.server>github</github.global.server>
@@ -16,14 +17,17 @@
             <url>https://github.com/yohanakh/mvn-repo/raw/master</url>
             <!-- use snapshot version -->
         </repository>
-        <repository>
-            <id>The mavenized Facebook Android API</id>
-            <url>http://avianey.github.io/facebook-api-android-maven/</url>
-        </repository>
     </repositories>
 
 
     <dependencies>
+        <dependency>
+            <groupId>com.actionbarsherlock</groupId>
+            <artifactId>actionbarsherlock</artifactId>
+            <version>4.4.0</version>
+            <scope>compile</scope>
+            <type>apklib</type>
+        </dependency>
         <dependency>
             <groupId>com.jeremyfeinstein.slidingmenu</groupId>
             <artifactId>slidingmenu</artifactId>
@@ -47,10 +51,10 @@
         </dependency>
     </dependencies>
 
-	<build>
-    <sourceDirectory>src</sourceDirectory>
+    <build>
+        <sourceDirectory>src</sourceDirectory>
 
-		<plugins>
+        <plugins>
             <plugin>
                 <groupId>com.jayway.maven.plugins.android.generation2</groupId>
                 <artifactId>android-maven-plugin</artifactId>
@@ -84,6 +88,6 @@
                     </execution>
                 </executions>
             </plugin>
-		</plugins>
-	</build>
+        </plugins>
+    </build>
 </project>
