@@ -13,6 +13,13 @@
 		<version>1.3-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
+<repositories>
+        <repository>
+            <id>github</id>
+            <url>https://github.com/yohanakh/mvn-repo/raw/master</url>
+            <!-- use snapshot version -->
+        </repository>
+</repositories>
 
 	<dependencies>
 		<dependency>
@@ -23,6 +30,7 @@
         <dependency>
             <groupId>com.google.android.maps</groupId>
             <artifactId>maps</artifactId>
+	    <version>14</version>
         </dependency>
 	</dependencies>
 
