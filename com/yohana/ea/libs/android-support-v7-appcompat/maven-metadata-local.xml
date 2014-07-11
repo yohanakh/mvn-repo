@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.yohana.ea.libs</groupId>
+  <artifactId>android-support-v7-appcompat</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20140711210658</lastUpdated>
+  </versioning>
+</metadata>
