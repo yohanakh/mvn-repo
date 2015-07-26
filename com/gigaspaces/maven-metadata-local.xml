@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>newman-test-generator</name>
+      <prefix>newman-test-generator</prefix>
+      <artifactId>newman-test-generator</artifactId>
+    </plugin>
+  </plugins>
+</metadata>
